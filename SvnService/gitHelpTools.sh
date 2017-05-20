@@ -1,7 +1,7 @@
 #!/bin/sh
+###or use #!/bin/bash
 
-if [ $# -lt 3 ]
-then
+if [ $# -lt 3 ]; then
 	echo "Usage: `basename $0` type input_name output_name!"
 	echo "       type include: -c or -x"
 	exit 1
